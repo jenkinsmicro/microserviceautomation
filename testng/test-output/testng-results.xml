@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing the driver ]]>
+    </line>
+    <line>
+      <![CDATA[========PMP Page verification Test Case Started====]]>
+    </line>
+    <line>
+      <![CDATA[Username, Password, Login button are diplayed properly]]>
+    </line>
+    <line>
+      <![CDATA[PMP Login Page Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[========Login Test Case Started====]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Username as :veon_admin@example.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Password as :@Karlskrona17]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Login button]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Text appeared as: Welcome to VEON Partner Management]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Text appeared as: Please select your action in the header.]]>
+    </line>
+    <line>
+      <![CDATA[Adminisrtaor, Partners tabs are present]]>
+    </line>
+    <line>
+      <![CDATA[Login Happened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[========Logout Test Case Started====]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout Button]]>
+    </line>
+    <line>
+      <![CDATA[Username, Password, Login button are diplayed properly]]>
+    </line>
+    <line>
+      <![CDATA[PMP Login Page Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Username as :veon_admin@example.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Password as :@Karlskrona17]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Login button]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Text appeared as: Welcome to VEON Partner Management]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Text appeared as: Please select your action in the header.]]>
+    </line>
+    <line>
+      <![CDATA[Adminisrtaor, Partners tabs are present]]>
+    </line>
+    <line>
+      <![CDATA[Login Happened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Adminisrtaot tab]]>
+    </line>
+    <line>
+      <![CDATA[New admin creation button appeared. Admin tab opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on New Administrator tab ]]>
+    </line>
+    <line>
+      <![CDATA[Firstname field exists ]]>
+    </line>
+    <line>
+      <![CDATA[Lastname field exists ]]>
+    </line>
+    <line>
+      <![CDATA[Username field exists ]]>
+    </line>
+    <line>
+      <![CDATA[Phone field exists ]]>
+    </line>
+    <line>
+      <![CDATA[Status field exists ]]>
+    </line>
+    <line>
+      <![CDATA[Entered the text into Firstname field as : AdminFirstName]]>
+    </line>
+    <line>
+      <![CDATA[Entered Lastname as : AdminLastName]]>
+    </line>
+    <line>
+      <![CDATA[Entered Username as : ewvshhlz@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered Phone number as : +58941272]]>
+    </line>
+    <line>
+      <![CDATA[Selected the value from the dropdown : Active]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create button]]>
+    </line>
+    <line>
+      <![CDATA[New Administrator tab appeared]]>
+    </line>
+    <line>
+      <![CDATA[Admin creation happened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Partner tab]]>
+    </line>
+    <line>
+      <![CDATA[Create New Partner button appeared. Partners tab opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'New Partner' button ]]>
+    </line>
+    <line>
+      <![CDATA[All the Partner creations fields are opened properly]]>
+    </line>
+    <line>
+      <![CDATA[Entered First nameas  : PartnerFirstName]]>
+    </line>
+    <line>
+      <![CDATA[Entered Description as : Automation partner please ignore]]>
+    </line>
+    <line>
+      <![CDATA[Clcked on Language drop down ]]>
+    </line>
+    <line>
+      <![CDATA[Language list opened ]]>
+    </line>
+    <line>
+      <![CDATA[Selected ENGLISH langauge ]]>
+    </line>
+    <line>
+      <![CDATA[Clcked on Country drop down ]]>
+    </line>
+    <line>
+      <![CDATA[Country drop down list displayed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Russia langauge]]>
+    </line>
+    <line>
+      <![CDATA[Entered the email adress as : jouczgwt@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Phone Number as : +95019800]]>
+    </line>
+    <line>
+      <![CDATA[Entered URL as: www.thtmyjno.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create partner submitt button]]>
+    </line>
+    <line>
+      <![CDATA[New Partner tab appreared. New partner creation Successful ]]>
+    </line>
+    <line>
+      <![CDATA[No fo pages are :5]]>
+    </line>
+    <line>
+      <![CDATA[List of rows size: 11]]>
+    </line>
+    <line>
+      <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the page number : 2]]>
+    </line>
+    <line>
+      <![CDATA[List of rows size: 11]]>
+    </line>
+    <line>
+      <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the page number : 3]]>
+    </line>
+    <line>
+      <![CDATA[List of rows size: 11]]>
+    </line>
+    <line>
+      <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Found the emaild id at :jouczgwt@yopmail.com, 2, 4]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Partner record to delete]]>
+    </line>
+    <line>
+      <![CDATA[Partnerr card detials shown]]>
+    </line>
+    <line>
+      <![CDATA[Users, Single sign on, Merhcant informaiton tabs are present. New user creation button exists]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on New user button]]>
+    </line>
+    <line>
+      <![CDATA[All the partner user creation Form fields are exists.]]>
+    </line>
+    <line>
+      <![CDATA[Entered Partner user Firstname as : partneruserFirstName]]>
+    </line>
+    <line>
+      <![CDATA[Entered Partner user LastName as : partneruserLastName]]>
+    </line>
+    <line>
+      <![CDATA[Entered Partner user Username/emailid as :fusomztp@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered Partner user PhonenUmber as : +95019800]]>
+    </line>
+    <line>
+      <![CDATA[Selected the value from the dropdown : Active]]>
+    </line>
+    <line>
+      <![CDATA[Selected the value from the dropdown : Partner User]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create Button]]>
+    </line>
+    <line>
+      <![CDATA[Elemetn  is not present By.linkText: New user:: Retrying.....]]>
+    </line>
+    <line>
+      <![CDATA[New user record exists in the table]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Edit' partner field]]>
+    </line>
+    <line>
+      <![CDATA['Delete Partner' button Dispalyed. ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Delete Partner' button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Delete' button on the Delete confirmation popup]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Delete' button on the Delete confirmation popup]]>
+    </line>
+    <line>
+      <![CDATA[Deletetion of Partner User is Successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Microservices Sanity Suite" duration-ms="85806" started-at="2017-10-13T05:46:49Z" finished-at="2017-10-13T05:48:15Z">
+    <groups>
+      <group name="sanity">
+        <method signature="PMPAdminTests.verifyLogin()[pri:2, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyLogin" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyLogout()[pri:3, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyLogout" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyPMPPageLoaded()[pri:1, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPMPPageLoaded" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyPartnerDeletion()[pri:11, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerDeletion" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyAdminCreation()[pri:4, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyAdminCreation" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyPartnerCreation()[pri:6, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerCreation" class="com.microservices.tests.PMPAdminTests"/>
+        <method signature="PMPAdminTests.verifyPartnerUserCreation()[pri:7, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerUserCreation" class="com.microservices.tests.PMPAdminTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity tests on Firefox Browser (V 49.0)" duration-ms="85806" started-at="2017-10-13T05:46:49Z" finished-at="2017-10-13T05:48:15Z">
+      <class name="com.microservices.tests.PMPAdminTests">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUP" is-config="true" duration-ms="5461" started-at="2017-10-13T11:16:49Z" finished-at="2017-10-13T11:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing the driver ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="9" started-at="2017-10-13T11:16:54Z" finished-at="2017-10-13T11:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyPMPPageLoaded()[pri:1, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPMPPageLoaded" duration-ms="6352" started-at="2017-10-13T11:16:54Z" finished-at="2017-10-13T11:17:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[========PMP Page verification Test Case Started====]]>
+            </line>
+            <line>
+              <![CDATA[Username, Password, Login button are diplayed properly]]>
+            </line>
+            <line>
+              <![CDATA[PMP Login Page Loaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPMPPageLoaded -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="0" started-at="2017-10-13T11:17:01Z" finished-at="2017-10-13T11:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyLogin()[pri:2, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyLogin" duration-ms="6223" started-at="2017-10-13T11:17:01Z" finished-at="2017-10-13T11:17:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[========Login Test Case Started====]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Username as :veon_admin@example.com]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Password as :@Karlskrona17]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Login button]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Text appeared as: Welcome to VEON Partner Management]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Text appeared as: Please select your action in the header.]]>
+            </line>
+            <line>
+              <![CDATA[Adminisrtaor, Partners tabs are present]]>
+            </line>
+            <line>
+              <![CDATA[Login Happened Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="0" started-at="2017-10-13T11:17:07Z" finished-at="2017-10-13T11:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyLogout()[pri:3, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyLogout" duration-ms="5239" started-at="2017-10-13T11:17:07Z" depends-on-methods="com.microservices.tests.PMPAdminTests.verifyLogin" finished-at="2017-10-13T11:17:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[========Logout Test Case Started====]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Logout Button]]>
+            </line>
+            <line>
+              <![CDATA[Username, Password, Login button are diplayed properly]]>
+            </line>
+            <line>
+              <![CDATA[PMP Login Page Loaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="1" started-at="2017-10-13T11:17:12Z" finished-at="2017-10-13T11:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyAdminCreation()[pri:4, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyAdminCreation" duration-ms="21299" started-at="2017-10-13T11:17:12Z" finished-at="2017-10-13T11:17:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the Username as :veon_admin@example.com]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Password as :@Karlskrona17]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Login button]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Text appeared as: Welcome to VEON Partner Management]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Text appeared as: Please select your action in the header.]]>
+            </line>
+            <line>
+              <![CDATA[Adminisrtaor, Partners tabs are present]]>
+            </line>
+            <line>
+              <![CDATA[Login Happened Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Adminisrtaot tab]]>
+            </line>
+            <line>
+              <![CDATA[New admin creation button appeared. Admin tab opened successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on New Administrator tab ]]>
+            </line>
+            <line>
+              <![CDATA[Firstname field exists ]]>
+            </line>
+            <line>
+              <![CDATA[Lastname field exists ]]>
+            </line>
+            <line>
+              <![CDATA[Username field exists ]]>
+            </line>
+            <line>
+              <![CDATA[Phone field exists ]]>
+            </line>
+            <line>
+              <![CDATA[Status field exists ]]>
+            </line>
+            <line>
+              <![CDATA[Entered the text into Firstname field as : AdminFirstName]]>
+            </line>
+            <line>
+              <![CDATA[Entered Lastname as : AdminLastName]]>
+            </line>
+            <line>
+              <![CDATA[Entered Username as : ewvshhlz@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Entered Phone number as : +58941272]]>
+            </line>
+            <line>
+              <![CDATA[Selected the value from the dropdown : Active]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create button]]>
+            </line>
+            <line>
+              <![CDATA[New Administrator tab appeared]]>
+            </line>
+            <line>
+              <![CDATA[Admin creation happened Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAdminCreation -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="0" started-at="2017-10-13T11:17:34Z" finished-at="2017-10-13T11:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyPartnerCreation()[pri:6, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerCreation" duration-ms="26148" started-at="2017-10-13T11:17:34Z" finished-at="2017-10-13T11:18:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Partner tab]]>
+            </line>
+            <line>
+              <![CDATA[Create New Partner button appeared. Partners tab opened Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'New Partner' button ]]>
+            </line>
+            <line>
+              <![CDATA[All the Partner creations fields are opened properly]]>
+            </line>
+            <line>
+              <![CDATA[Entered First nameas  : PartnerFirstName]]>
+            </line>
+            <line>
+              <![CDATA[Entered Description as : Automation partner please ignore]]>
+            </line>
+            <line>
+              <![CDATA[Clcked on Language drop down ]]>
+            </line>
+            <line>
+              <![CDATA[Language list opened ]]>
+            </line>
+            <line>
+              <![CDATA[Selected ENGLISH langauge ]]>
+            </line>
+            <line>
+              <![CDATA[Clcked on Country drop down ]]>
+            </line>
+            <line>
+              <![CDATA[Country drop down list displayed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Russia langauge]]>
+            </line>
+            <line>
+              <![CDATA[Entered the email adress as : jouczgwt@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Phone Number as : +95019800]]>
+            </line>
+            <line>
+              <![CDATA[Entered URL as: www.thtmyjno.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create partner submitt button]]>
+            </line>
+            <line>
+              <![CDATA[New Partner tab appreared. New partner creation Successful ]]>
+            </line>
+            <line>
+              <![CDATA[No fo pages are :5]]>
+            </line>
+            <line>
+              <![CDATA[List of rows size: 11]]>
+            </line>
+            <line>
+              <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the page number : 2]]>
+            </line>
+            <line>
+              <![CDATA[List of rows size: 11]]>
+            </line>
+            <line>
+              <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the page number : 3]]>
+            </line>
+            <line>
+              <![CDATA[List of rows size: 11]]>
+            </line>
+            <line>
+              <![CDATA[Emailid to be searched in the page   :jouczgwt@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Found the emaild id at :jouczgwt@yopmail.com, 2, 4]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Partner record to delete]]>
+            </line>
+            <line>
+              <![CDATA[Partnerr card detials shown]]>
+            </line>
+            <line>
+              <![CDATA[Users, Single sign on, Merhcant informaiton tabs are present. New user creation button exists]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPartnerCreation -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="1" started-at="2017-10-13T11:18:00Z" finished-at="2017-10-13T11:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyPartnerUserCreation()[pri:7, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerUserCreation" duration-ms="3150" started-at="2017-10-13T11:18:00Z" finished-at="2017-10-13T11:18:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on New user button]]>
+            </line>
+            <line>
+              <![CDATA[All the partner user creation Form fields are exists.]]>
+            </line>
+            <line>
+              <![CDATA[Entered Partner user Firstname as : partneruserFirstName]]>
+            </line>
+            <line>
+              <![CDATA[Entered Partner user LastName as : partneruserLastName]]>
+            </line>
+            <line>
+              <![CDATA[Entered Partner user Username/emailid as :fusomztp@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Entered Partner user PhonenUmber as : +95019800]]>
+            </line>
+            <line>
+              <![CDATA[Selected the value from the dropdown : Active]]>
+            </line>
+            <line>
+              <![CDATA[Selected the value from the dropdown : Partner User]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create Button]]>
+            </line>
+            <line>
+              <![CDATA[Elemetn  is not present By.linkText: New user:: Retrying.....]]>
+            </line>
+            <line>
+              <![CDATA[New user record exists in the table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPartnerUserCreation -->
+        <test-method status="PASS" signature="setUPOtherObejcts()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="setUPOtherObejcts" is-config="true" duration-ms="0" started-at="2017-10-13T11:18:03Z" finished-at="2017-10-13T11:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPOtherObejcts -->
+        <test-method status="PASS" signature="verifyPartnerDeletion()[pri:11, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="verifyPartnerDeletion" duration-ms="11418" started-at="2017-10-13T11:18:03Z" finished-at="2017-10-13T11:18:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on 'Edit' partner field]]>
+            </line>
+            <line>
+              <![CDATA['Delete Partner' button Dispalyed. ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Delete Partner' button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Delete' button on the Delete confirmation popup]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Delete' button on the Delete confirmation popup]]>
+            </line>
+            <line>
+              <![CDATA[Deletetion of Partner User is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPartnerDeletion -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.microservices.tests.PMPAdminTests@47fd17e3]" name="closeSession" is-config="true" duration-ms="475" started-at="2017-10-13T11:18:14Z" finished-at="2017-10-13T11:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.microservices.tests.PMPAdminTests -->
+    </test> <!-- Sanity tests on Firefox Browser (V 49.0) -->
+  </suite> <!-- Microservices Sanity Suite -->
+</testng-results>

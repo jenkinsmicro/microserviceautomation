@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Microservices Sanity Suite">
+	<listeners>
+		<listener class-name="com.microservices.listners.CustomTestListener" />
+	</listeners>
+
+	<test name="Sanity tests on Firefox Browser (V 49.0)">
+
+		<classes>
+			<class name="com.microservices.tests.PMPAdminTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

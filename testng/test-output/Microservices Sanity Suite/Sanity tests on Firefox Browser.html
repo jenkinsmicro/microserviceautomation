@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>TestNG:  Sanity tests on Firefox Browser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sanity tests on Firefox Browser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 14 12:28:54 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>100 seconds (100129 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyAdminCreation()'><b>verifyAdminCreation</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1704237553" onClick='toggleBox("Output-1704237553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704237553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704237553">
+Entered the Username as :a8281@yopmail.com<br/>
+Entered the Password :Qwerty@234567<br/>
+Clicked on Submitt button<br/>
+Adminisrtaor, Partners tabs are prsent<br/>
+Clicked on Adminisrtaot tab<br/>
+New Administrator tab opened successfully<br/>
+Clicked on New Administrator tab <br/>
+Firstname field exists <br/>
+Lastname field exists <br/>
+Username field exists <br/>
+Phone field exists <br/>
+Status field exists <br/>
+Entered the text into Firstname field  <br/>
+Entered Lastname field exists <br/>
+Entered Username as : yrblfiad@yopmail.com<br/>
+Entered Phone field exists <br/>
+Status field exists <br/>
+Clicked on Create button<br/>
+New Administrator tab appeared<br/>
+Admin creation happened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyDeletePartnerUser()'><b>verifyDeletePartnerUser</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-980697799" onClick='toggleBox("Output-980697799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-980697799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-980697799">
+Clicked on the Partner user record to open it<br/>
+Clicked on 'Delete Partner user' button<br/>
+Clicked on 'Delete' button on the Delete confirmation popup<br/>
+Deletetion of Partner User is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyLogin()'><b>verifyLogin</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1213818572" onClick='toggleBox("Output-1213818572", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1213818572" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1213818572">
+========Login Test Case Started====<br/>
+Entered the Username as :a8281@yopmail.com<br/>
+Entered the Password :Qwerty@234567<br/>
+Clicked on Submitt button<br/>
+Welcome Text appeared as: Welcome to VEON Partner Management<br/>
+Welcome Text appeared as: Please select your action in the header.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyLogout()'><b>verifyLogout</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-739973450" onClick='toggleBox("Output-739973450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-739973450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-739973450">
+========Logout Test Case Started====<br/>
+Clicked on Logout Button<br/>
+Username, Password, Login button are diplayed properly<br/>
+PMP Login Page Loaded Successfully. LOGOUT happened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyMerchantCreation()'><b>verifyMerchantCreation</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1912821769" onClick='toggleBox("Output-1912821769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1912821769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1912821769">
+Clicked on Merchant Information tab<br/>
+Clicked on Register merchant button<br/>
+Name, Description, Status, Url, userid, password are exists. Merchant regisrtation form opened successfully<br/>
+Entered name value<br/>
+Entered Descrption value<br/>
+Entered url value<br/>
+Entered userId value<br/>
+Entered Password value<br/>
+Clicked on Create button<br/>
+merhcant list has been updated. Table has been created. Seems to eb merchant creation Successful<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyPMPPageLoaded()'><b>verifyPMPPageLoaded</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1714113641" onClick='toggleBox("Output-1714113641", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1714113641" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714113641">
+========PMP Page verification Test Case Started====<br/>
+Username, Password, Login button are diplayed properly<br/>
+PMP Login Page Loaded Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyPartnerCreation()'><b>verifyPartnerCreation</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-2067180044" onClick='toggleBox("Output-2067180044", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2067180044" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2067180044">
+Clicked on Partner tab<br/>
+Clicked on 'New Partner' button  <br/>
+All the Partner creations fields are opened properly<br/>
+Entered First name <br/>
+Entered Description <br/>
+Clcked on Language drop down <br/>
+Language list opened <br/>
+Selected ENGLISH langauge <br/>
+Clcked on Country drop down <br/>
+Country drop down list displayed<br/>
+Clicked on Russia langauge<br/>
+Entered email adress<br/>
+Entered the Phone Number <br/>
+Entered URL <br/>
+Clicked on Create partner submitt button<br/>
+New Partner tab appreared. New partner creation succssful <br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyPartnerDeletion()'><b>verifyPartnerDeletion</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1574877131" onClick='toggleBox("Output-1574877131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574877131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574877131">
+Clicked on 'Edit' partner field<br/>
+Clicked on 'Delete Partner' button<br/>
+Clicked on 'Delete' button on the Delete confirmation popup<br/>
+Deletetion of Partner User is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifyPartnerUserCreation()'><b>verifyPartnerUserCreation</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-1855026648" onClick='toggleBox("Output-1855026648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1855026648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1855026648">
+Clicked on partner details<br/>
+Partnerr card detials shown<br/>
+Users, Single sign on, Merhcant informaiton tabs are present. New user creation button exists<br/>
+Clicked on New user button<br/>
+Entered Partner user Firstname<br/>
+Entered Partner user LastName<br/>
+Entered Partner user Username/emailid<br/>
+Entered Partner user PhonenUmber<br/>
+Clicked on Create Button<br/>
+New user record exists in the table<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTests.verifySingleSignOnCreation()'><b>verifySingleSignOnCreation</b><br>Test class: com.microservices.tests.PMPAdminTests<br/>
+<a href="#Output-475603167" onClick='toggleBox("Output-475603167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-475603167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-475603167">
+Clicked on Single Sign On Link<br/>
+Clicked on creat client button -NEW CLIENT<br/>
+Entered the urls into url field<br/>
+Clicked on url add  button<br/>
+Clicked on SSO create button<br/>
+Created SSO account appeared in the SSO list. SSO creation happened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.microservices.tests.PMPAdminTests@4b6995df</td></tr>
+</table><p>
+</body>
+</html>

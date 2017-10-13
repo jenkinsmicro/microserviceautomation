@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 16:02:03 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64564 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTestsDevelopment.verifyAdminCreation()'><b>verifyAdminCreation</b><br>Test class: com.microservices.tests.PMPAdminTestsDevelopment<br/>
+<a href="#Output-1646371921" onClick='toggleBox("Output-1646371921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646371921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646371921">
+Entered the Username as :veon_admin@example.com<br/>
+Entered the Password as :@Karlskrona17<br/>
+Clicked on the Login button<br/>
+Welcome Text appeared as: Welcome to VEON Partner Management<br/>
+Welcome Text appeared as: Please select your action in the header.<br/>
+Adminisrtaor, Partners tabs are present<br/>
+Login Happened Successfully<br/>
+Clicked on Adminisrtaot tab<br/>
+New admin creation button appeared. Admin tab opened successfully<br/>
+Clicked on New Administrator tab <br/>
+Firstname field exists <br/>
+Lastname field exists <br/>
+Username field exists <br/>
+Phone field exists <br/>
+Status field exists <br/>
+Entered the text into Firstname field as : AdminFirstName<br/>
+Entered Lastname as : AdminLastName<br/>
+Entered Username as : ekvuyhtz@yopmail.com<br/>
+Entered Phone number as : +30098238<br/>
+Selected the value from the dropdown : Active<br/>
+Clicked on Create button<br/>
+New Administrator tab appeared<br/>
+Admin creation happened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.microservices.tests.PMPAdminTestsDevelopment@47fd17e3</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTestsDevelopment.verifyAdminDeletion()'><b>verifyAdminDeletion</b><br>Test class: com.microservices.tests.PMPAdminTestsDevelopment<br/>
+<a href="#Output-2075809815" onClick='toggleBox("Output-2075809815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075809815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075809815">
+No fo pages are :5<br/>
+List of rows size: 11<br/>
+Emailid to be searched in the page   :ekvuyhtz@yopmail.com<br/>
+Clicked on the page number : 2<br/>
+List of rows size: 11<br/>
+Emailid to be searched in the page   :ekvuyhtz@yopmail.com<br/>
+Found the emaild id at :ekvuyhtz@yopmail.com, 1, 1<br/>
+Clicked on the admin record to delete<br/>
+Delete User button displayed<br/>
+Clicked on Delete User button<br/>
+Clicked on OK on delete confirmaiton screen<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.microservices.tests.PMPAdminTestsDevelopment@47fd17e3</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTestsDevelopment.verifyLogin()'><b>verifyLogin</b><br>Test class: com.microservices.tests.PMPAdminTestsDevelopment<br/>
+<a href="#Output-829149076" onClick='toggleBox("Output-829149076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-829149076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-829149076">
+========Login Test Case Started====<br/>
+Entered the Username as :veon_admin@example.com<br/>
+Entered the Password as :@Karlskrona17<br/>
+Clicked on the Login button<br/>
+Welcome Text appeared as: Welcome to VEON Partner Management<br/>
+Welcome Text appeared as: Please select your action in the header.<br/>
+Adminisrtaor, Partners tabs are present<br/>
+Login Happened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.microservices.tests.PMPAdminTestsDevelopment@47fd17e3</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTestsDevelopment.verifyLogout()'><b>verifyLogout</b><br>Test class: com.microservices.tests.PMPAdminTestsDevelopment<br/>
+<a href="#Output-658404420" onClick='toggleBox("Output-658404420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-658404420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-658404420">
+========Logout Test Case Started====<br/>
+Clicked on Logout Button<br/>
+Username, Password, Login button are diplayed properly<br/>
+PMP Login Page Loaded Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.microservices.tests.PMPAdminTestsDevelopment@47fd17e3</td></tr>
+<tr>
+<td title='com.microservices.tests.PMPAdminTestsDevelopment.verifyPMPPageLoaded()'><b>verifyPMPPageLoaded</b><br>Test class: com.microservices.tests.PMPAdminTestsDevelopment<br/>
+<a href="#Output-710190911" onClick='toggleBox("Output-710190911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710190911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710190911">
+========PMP Page verification Test Case Started====<br/>
+Username, Password, Login button are diplayed properly<br/>
+PMP Login Page Loaded Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.microservices.tests.PMPAdminTestsDevelopment@47fd17e3</td></tr>
+</table><p>
+</body>
+</html>
